@@ -2,7 +2,6 @@
 provider "aws" {
   profile			= "aws"
   region			= "us-east-1"
-  shared_credentials_file	= "~/.aws/aws_creds"
 }
 
 ## VPC selection, needed for subnet_ids
